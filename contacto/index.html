@@ -1,0 +1,31 @@
+
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form method="post" action="http://localhost:3000/api/contactos/" >
+
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre"  ><br>
+  <label for="cel">Telefono:</label><br>
+  <input type="number" id="celular"  ><br>
+  <label for="mail">Email:</label><br>
+  <input type="email" id="email" ><br>
+  <label for="old">Edad:</label><br>
+  <input type="number" id="edad"  ><br><br>
+  <label for="nactivos">Activos:</label><br>
+  <input type="text" id="activos"  ><br><br>
+  <label for="nudependientes">Dependientes:</label><br>
+  <input type="number" id="dependientes"  ><br><br>
+  <button type="button" id="btnadd">Agregar Dependientes</button>
+ 
+  <button type="button" id="btnguardar">Guardar</button>
+  <div id="newdependientes"></div>
+</form> 
+</div>
+<script src="app2.js"></script>
+
+
+</body>
+</html>
